@@ -1,8 +1,8 @@
-
+package entregaut6.modelo;   
 /**
  * Enumeration class Mes - write a description of the enum class here
  * 
- * @author (your name here)
+ * @author :ANTHONNY TROYA
  * @version (version number or date here)
  */
 public enum Mes

@@ -1,9 +1,11 @@
+package entregaut6.modelo;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.DayOfWeek;
 import java.time.Month;
+
 /**
  * Representa a un evento del calendario
  * @author - Anthonny Troya

@@ -1,11 +1,13 @@
+package entregaut6.io; 
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
-
+import entregaut6.modelo.*;
 /**
  * La clase contiene un método estático que permite
- * cargar el calendario de eventos con los datos leídos desde
+ * el calendario de eventos con los datos leídos desde
  * un fichero
+ * @author - ANTHONNY TROYA
  */
 public class CalendarioIO {
     

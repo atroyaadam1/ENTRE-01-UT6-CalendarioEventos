@@ -1,5 +1,8 @@
+package entregaut6.interfaz; 
+import entregaut6.modelo.CalendarioEventos;
 import java.util.Scanner;
-
+import entregaut6.io.CalendarioIO;
+import entregaut6.modelo.Mes;
 public class IUConsola {
     private static final int MOSTRAR_CALENDARIO = 1;
     private static final int TOTAL_EVENTOS_MES = 2;
@@ -115,7 +118,7 @@ public class IUConsola {
                 System.out.println("No es un nombre correcto de mes");
             }
             else {
-                 System.out.println(mes + " no existe en el calendario");
+                System.out.println(mes + " no existe en el calendario");
             }
         }
 
@@ -168,7 +171,6 @@ public class IUConsola {
             System.out.println("Mes incorrecto o no existe en el calendario");
         }
 
-        
     }
     /**
      * Borrar la pantalla
